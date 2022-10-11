@@ -1,0 +1,251 @@
+:root {
+  --main-black: #212121;
+  --primary-color: #2196f3;
+  --secondary-color: #ffffff;
+  --tertiary-color: #2f303a;
+}
+
+body {
+  max-width: 100%;
+  background: var(--secondary-color);
+  color: var(--main-black);
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+}
+
+.header-block {
+  width: 100%;
+  background: #ffffff;
+  padding: 24px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-navigation-with-logo {
+  display: flex;
+  justify-content: flex-start;
+  gap: 93px;
+  align-items: center;
+}
+
+.main-navigation {
+  display: flex;
+  gap: 46px;
+}
+
+.header-contact-links {
+  display: flex;
+  gap: 50px;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-black);
+  text-decoration: none;
+}
+
+.blue {
+  color: var(--primary-color);
+}
+
+.white {
+  color: var(--secondary-color);
+}
+
+.top-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--main-black);
+}
+
+.hover-link:hover,
+.hover-link:active {
+  color: var(--primary-color);
+}
+
+.btn-hover:hover {
+  background-color: var(--primary-color);
+}
+
+.btn {
+  padding: 10px 42px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--secondary-color);
+  text-shadow: 1px 1px 1px #000000;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-portfolio {
+  padding: 6px 22px;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-portfolio-gap {
+  gap: 8px;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: var(--tertiary-color);
+  padding: 200px 0;
+  gap: 30px;
+}
+
+.main-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--secondary-color);
+  margin: 0;
+  max-width: 700px;
+}
+
+.data-display-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description-gap {
+  gap: 30px;
+}
+
+.description-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.description-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.main-title-2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-black);
+}
+
+.main-img {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.team-block {
+  width: 100%;
+  padding: 94px 0px;
+  gap: 50px;
+  background-color: #f5f4fa;
+}
+
+.team-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-black);
+  display: flex;
+  flex-direction: column;
+}
+
+.team-name .portfolio {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
+
+.team-name .role {
+  font-weight: 400;
+  color: #757575;
+}
+
+.team-name .name {
+  margin-bottom: 10px;
+}
+
+.footer-wrapper {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+}
+
+.footer-block {
+  width: 100%;
+  background-color: var(--tertiary-color);
+  padding: 60px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-data {
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-navigation {
+  display: block;
+  gap: 9px;
+}
+
+.list-style-none {
+  list-style: none;
+}
