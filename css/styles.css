@@ -110,8 +110,9 @@ body {
   color: var(--main-color);
 }
 
-.btn-hover:hover {
+.btn-portfolio:hover {
   background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .btn {
@@ -121,8 +122,8 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
+  background-color: var(--primary-color);
   color: var(--secondary-color);
-  text-shadow: 1px 1px 1px #000000;
   cursor: pointer;
   border-radius: 4px;
   display: flex;
@@ -142,10 +143,8 @@ body {
   border-radius: 4px;
   margin-bottom: 50px;
   background-color: var(--quaternary-color);
-}
-
-.btn-portfolio-hover:hover {
-  color: var(--secondary-color);
+  color: var(--main-color);
+  transition: all 0.3s;
 }
 
 .btn-portfolio-gap {
