@@ -144,6 +144,10 @@ body {
   background-color: var(--quaternary-color);
 }
 
+.btn-portfolio-hover:hover {
+  color: var(--secondary-color);
+}
+
 .btn-portfolio-gap {
   gap: 8px;
   display: flex;
